@@ -1,0 +1,21 @@
+{
+  "name": "bandersnatch",
+  "version": "1.0.0",
+  "description": "📚 Bandersnatch | Javascript Expert by @ErickWendel  📚",
+  "main": "index.js",
+  "scripts": {
+    "assets": "npx http-server --cors -p 8081 assets/",
+    "dev": "npx http-server --cors -p 8080 public/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@home.github.com:Victor19Rodrigues/bandersnatch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
